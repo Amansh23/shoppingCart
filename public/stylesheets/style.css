@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+#container{
+  width: 80%;
+ position: absolute;
+ top: 10%;
+ left: 10%;
+}
+
+#hey #dibba #btn{
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  position: relative;
+}
+#hey{
+  width: 50%;
+  height: 10vh;
+  margin-left: 350px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid royalblue;
+}
+#hey h1{
+  font-size: 40px;
+  font-family: gilroy;
+}
+#hey #dibba #btn1{
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  position: relative;
+  color: white;
+}
+#hey #btn a{
+  text-decoration: none;
+  font-family: gilroy ultrabold;
+  color: white;
+  font-size: 15px;
+}
+#hey #btn1 a{
+  text-decoration: none;
+  font-family: gilroy ultrabold;
+  color: white;
+  font-size: 15px;
+}
+#dibba{
+  display: flex;
+}
+
+#box{
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid black; */
+  padding: 15px 15px ;
+  /* display: flex; */
+}
+#box #box1{
+  width: 45%;
+  height: 45vh;
+  border: 1px solid rgba(114, 104, 104, 0.404);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px 5px ;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+#box1 #box2{
+  width: 40%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#box1 #box2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#box1 #box3{
+  width: 60%;
+  height: 100%;
+  padding: 10px 10px ;
+  position: relative;
+}
+#box1 #box3 h3{
+  width: 100%;
+  font-family: gilroy regular;
+  font-size: 20px;
+  color: black;
+}
+#box1 #box3 p{
+  width: 100%;
+  font-family: gilroy light;
+  font-size: 10px;
+  color: grey;
+  margin-top: 10px;
+}
+#box1 #box3 #patti{
+  width: 96%;
+  height: 20%;
+  font-family: gilroy light;
+  position: absolute;
+  bottom: 2%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#box1 #box3 #patti form{
+  background-color: royalblue;
+  border-radius: 10px;
+  width: 30%;
+  height: 100%;
+  border: none;
+  color: white;
+  font-family: gilroy ultrabold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box1 #box3 #patti input{
+  background-color: royalblue;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: white;
+  font-family: gilroy ultrabold;
+  font-size: 15px ;
+}
+
+
+
+.cartlogo{
+  width: 27px;
+    height: 30px;
+    background: royalblue;
+    color: white;
+    font-family: gilroy extrabold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: -14px;
+}
+
+#cartform{
+  display:none;
+}
